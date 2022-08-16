@@ -3,6 +3,7 @@ package com.example.dynamicrecyclerview.data.model
 import java.io.Serializable
 
 data class DynamicLayout (
+    val isSent: Boolean,
     val text: Text,
     val button: Button,
     val image: Image
