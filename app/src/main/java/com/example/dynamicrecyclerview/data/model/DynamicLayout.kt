@@ -1,10 +1,12 @@
 package com.example.dynamicrecyclerview.data.model
 
+import java.io.Serializable
+
 data class DynamicLayout (
     val text: Text,
     val button: Button,
     val image: Image
-)
+): Serializable
 
 data class Image (
     val isImage: Boolean,
